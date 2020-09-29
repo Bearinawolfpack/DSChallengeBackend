@@ -8,12 +8,15 @@ class GifsController < ApplicationController
   end
 
   def create
+    @gif = Gif.new(gif_params)
   end
 
   def update
+    @gif = Gif.find(params[:id])
   end
 
   def delete
+    Gif.find(params[:id]).destroy
   end
 
   private
