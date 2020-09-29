@@ -21,3 +21,5 @@
 - Link to [Frontend](https://github.com/Bearinawolfpack/DSChallengeFrontend)
 
 ## Notes
+
+- Should look like ![beyonce gif](bey-slay.gif)
